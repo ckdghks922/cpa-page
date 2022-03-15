@@ -1,5 +1,7 @@
+import HeaderView from './HeaderView';
+
 const HeaderContainer: React.FC = () => {
-  return <div>Header</div>;
+  return <HeaderView />;
 };
 
 export default HeaderContainer;
