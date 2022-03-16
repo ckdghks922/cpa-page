@@ -1,12 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Header } from './components';
+import * as Compt from './components';
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
+      <Compt.Header />
       <Routes>
-        <Route path="/" element={<Header />} />
+        <Route path="/" element={<Compt.Home />} />
         <Route path="/intro" element={<div>Intro</div>} />
+        <Route path="*" element={<div>Page Not Found</div>} />
       </Routes>
     </BrowserRouter>
   );

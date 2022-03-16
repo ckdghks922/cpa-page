@@ -1,4 +1,4 @@
-import HeaderView from './HeaderView';
+import { HeaderView } from './HeaderView';
 
 const HeaderContainer: React.FC = () => {
   return <HeaderView />;
