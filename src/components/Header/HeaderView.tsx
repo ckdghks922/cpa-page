@@ -1,5 +1,7 @@
+import * as S from './styled';
+
 const HeaderView: React.FC = () => {
-  return <div>Header</div>;
+  return <S.Wrapper>Header</S.Wrapper>;
 };
 
 export default HeaderView;
