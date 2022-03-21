@@ -7,7 +7,7 @@ const App: React.FC = () => {
       <Compt.Header />
       <Routes>
         <Route path="/" element={<Compt.Home />} />
-        <Route path="/intro" element={<div>Intro</div>} />
+        <Route path="/intro" element={<Compt.Intro />} />
         <Route path="*" element={<div>Page Not Found</div>} />
       </Routes>
     </BrowserRouter>

@@ -1,5 +1,7 @@
+import IntroView from './IntroView';
+
 const IntroContainer: React.FC = () => {
-  return <div>Introduction</div>;
+  return <IntroView />;
 };
 
 export default IntroContainer;

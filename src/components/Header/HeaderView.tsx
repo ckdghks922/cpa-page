@@ -6,7 +6,7 @@ interface HeaderProps {
 export const HeaderView: React.FC<HeaderProps> = ({ onRoute }) => {
   return (
     <S.Wrapper>
-      사무소
+      <S.Title onClick={() => onRoute('/')}>사무소</S.Title>
       <S.MenuWrapper>
         <S.Menu onClick={() => onRoute('intro')}>인사말</S.Menu>
         <S.Menu>구성원 소개</S.Menu>
