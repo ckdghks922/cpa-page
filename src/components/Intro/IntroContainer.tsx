@@ -1,4 +1,4 @@
-import IntroView from './IntroView';
+import { IntroView } from './IntroView';
 
 const IntroContainer: React.FC = () => {
   return <IntroView />;
