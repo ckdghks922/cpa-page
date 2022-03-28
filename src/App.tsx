@@ -8,6 +8,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Compt.Home />} />
         <Route path="/intro" element={<Compt.Intro />} />
+        <Route path="/board" element={<Compt.Board />} />
         <Route path="*" element={<div>Page Not Found</div>} />
       </Routes>
     </BrowserRouter>
