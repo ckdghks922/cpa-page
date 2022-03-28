@@ -13,6 +13,7 @@ export const HeaderView: React.FC<HeaderProps> = ({ onRoute }) => {
         <S.Menu>찾아오시는 길</S.Menu>
         <S.Menu>문의 게시판</S.Menu>
       </S.MenuWrapper>
+      <S.MenuIcon>=</S.MenuIcon>
     </S.Wrapper>
   );
 };
