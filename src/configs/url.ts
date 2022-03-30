@@ -1,9 +1,9 @@
-export const ROUTE_URL_OBJ = {
+export const ROUTE_URL = {
   HOME: '',
   INTRO: 'intro',
+  BOARD: 'board',
 };
 
-export const PAGE_URL_OBJ = {
+export const PAGE_URL = {
   HOME: '/',
-  INTRO: `/${ROUTE_URL_OBJ}`,
 };
