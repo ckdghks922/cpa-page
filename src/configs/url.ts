@@ -1,6 +1,8 @@
 export const ROUTE_URL = {
   HOME: '',
   INTRO: 'intro',
+  MEMBER: 'member',
+  WAY: 'way',
   BOARD: 'board',
 };
 

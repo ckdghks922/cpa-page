@@ -11,12 +11,12 @@ const TEMP_DATA = [
 const BoardTitle: React.FC = () => {
   return (
     <thead>
-      <tr>
+      <S.TableHead>
         <th>번호</th>
         <th>제목</th>
         <th>작성자</th>
         <th>등록일</th>
-      </tr>
+      </S.TableHead>
     </thead>
   );
 };
@@ -32,12 +32,12 @@ interface ItemProps {
 const BoardItem: React.FC<ItemProps> = ({ info }) => {
   const { id, title, author, date } = info;
   return (
-    <tr>
+    <S.TableItem>
       <td>{id}</td>
       <td>{title}</td>
       <td>{author}</td>
       <td>{date}</td>
-    </tr>
+    </S.TableItem>
   );
 };
 

@@ -11,6 +11,8 @@ const App: React.FC = () => {
         <Routes>
           <Route index element={<Compt.Home />} />
           <Route path={ROUTE_URL.INTRO} element={<Compt.Intro />} />
+          <Route path={ROUTE_URL.MEMBER} element={<div>Member</div>} />
+          <Route path={ROUTE_URL.WAY} element={<div>Way</div>} />
           <Route path={ROUTE_URL.BOARD} element={<Compt.Board />} />
           <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>

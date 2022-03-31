@@ -9,12 +9,18 @@ export const LeftWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  width: 30%;
+
+  & img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
 `;
 
 export const MainWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 70%;
 `;
