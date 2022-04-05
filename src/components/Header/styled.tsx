@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
+  margin-right: 100px;
   font-size: 30px;
   cursor: pointer;
 `;
@@ -31,6 +32,20 @@ export const Menu = styled.li`
     background-color: gray;
     opacity: 0.3;
     border-radius: 5px;
+  }
+`;
+
+export const Login = styled.button`
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #222;
   }
 `;
 

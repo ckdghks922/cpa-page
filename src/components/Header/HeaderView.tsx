@@ -22,6 +22,7 @@ export const HeaderView: React.FC<HeaderProps> = ({ onRoute }) => {
           </S.Menu>
         ))}
       </S.MenuWrapper>
+      <S.Login>로그인</S.Login>
       <S.MenuIcon>=</S.MenuIcon>
     </S.Wrapper>
   );
