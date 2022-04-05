@@ -6,6 +6,11 @@ const TEMP_DATA = [
   { id: 3, title: '게시글 3', author: '홍길동3', date: '2022/03/03' },
   { id: 4, title: '게시글 4', author: '홍길동4', date: '2022/03/04' },
   { id: 5, title: '게시글 5', author: '홍길동5', date: '2022/03/05' },
+  { id: 6, title: '게시글 6', author: '홍길동6', date: '2022/03/06' },
+  { id: 7, title: '게시글 7', author: '홍길동7', date: '2022/03/07' },
+  { id: 8, title: '게시글 8', author: '홍길동8', date: '2022/03/08' },
+  { id: 9, title: '게시글 9', author: '홍길동9', date: '2022/03/09' },
+  { id: 10, title: '게시글 10', author: '홍길동10', date: '2022/03/10' },
 ];
 
 const BoardTitle: React.FC = () => {
@@ -59,7 +64,7 @@ const BoardView: React.FC = () => {
   return (
     <S.Wrapper>
       <S.Title>문의 게시판</S.Title>
-      <S.SubTitle>문의 글을 작성할 수 있습니다.</S.SubTitle>
+      {/* <S.SubTitle>문의 글을 작성할 수 있습니다.</S.SubTitle> */}
       <table>
         <BoardTitle />
         <tbody>
