@@ -10,6 +10,7 @@ const App: React.FC = () => {
       <Wrapper>
         <Routes>
           <Route index element={<Compt.Home />} />
+          <Route path={ROUTE_URL.LOGIN} element={<Compt.Login />} />
           <Route path={ROUTE_URL.INTRO} element={<Compt.Intro />} />
           <Route path={ROUTE_URL.MEMBER} element={<Compt.Member />} />
           <Route path={ROUTE_URL.WAY} element={<div>Way</div>} />
