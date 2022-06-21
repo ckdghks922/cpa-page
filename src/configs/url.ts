@@ -1,4 +1,6 @@
-export const ROUTE_URL = {
+import { Map } from 'immutable';
+
+const ROUTE_URL_OBJ = {
   HOME: '',
   LOGIN: 'login',
   INTRO: 'intro',
@@ -7,6 +9,9 @@ export const ROUTE_URL = {
   BOARD: 'board',
 };
 
-export const PAGE_URL = {
+const PAGE_URL_OBJ = {
   HOME: '/',
 };
+
+export const ROUTE_URL = Map(ROUTE_URL_OBJ).toObject();
+export const PAGE_URL = Map(PAGE_URL_OBJ).toObject();
